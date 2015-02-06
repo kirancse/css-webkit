@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+.style1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: right;
+    animation-play-state: running;
+}
+
+@keyframes my1 {
+    0%   {background:red; left:0px; top:0px;}
+    25%  {background:yellow; left:1230px; top:0px;}
+    50%  {background:blue; left:1230px; top:560px;}
+    70%  {background:green; left:0px; top:560px;}
+    100% {background:red; left:0px; top:0px;}
+}
+.style2{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my2 {
+    0%   {background:red; left:1230px; top:0px;}
+    25%  {background:yellow; left:1230px; top:560px;}
+    50%  {background:blue; left:0px; top:560px;}
+    75%  {background:green; left:0px; top:0px;}
+    100% {background:red; left:1230px; top:0px;}
+}
+.style3{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my3 {
+    0%   {background:red;}
+    25%  {background:yellow;}
+    50%  {background:blue;}
+    75%  {background:green;}
+    100% {background:red;}
+}
+.style4{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my4;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my4 {
+    0%   {background:red; left:1230px; top:560px;}
+    25%  {background:yellow; left:0px; top:560px;}
+    50%  {background:blue; left:0px; top:0px;}
+    75%  {background:green; left:1230px; top:0px;}
+    100% {background:red; left:1230px; top:560px;}
+}
+.style5{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my5;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my5 {
+    0%   {background:red; left:0px; top:560px;}
+    25%  {background:yellow; left:0px; top:0px;}
+    50%  {background:blue; left:1230px; top:0px;}
+    75%  {background:green; left:1230px; top:560px;}
+    100% {background:red; left:0px; top:560px;}
+}
+.style6{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my6;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my6 {
+    0%   {background:red; left:0px; top:250px;}
+    25%  {background:yellow; left:1230px; top:250px;}
+    50%  {background:blue; left:0px; top:250px;}
+    75%  {background:green; left:1230px; top:250px;}
+    100% {background:red; left:0px; top:250px;}
+    }
+.style7{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my7;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my7 {
+    0%   {background:red; left:1230px; top:0px;}
+    25%  {background:yellow; left:0px; top:0px;}
+    50%  {background:blue; left:0px; top:560px;}
+    75%  {background:green; left:1230px; top:560px;}
+    100% {background:red; left:1230px; top:0px;}
+    }
+.style8{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my8;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my8 {
+    0%   {background:red; left:1230px; top:560px;}
+    25%  {background:yellow; left:1230px; top:0px;}
+    50%  {background:blue; left:0px; top:0px;}
+    75%  {background:green; left:0px; top:560px;}
+    100% {background:red; left:1230px; top:560px;}
+    }
+
+.style9{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my9;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my9 {
+    0%   {background:red; left:0px; top:560px;}
+    25%  {background:yellow; left:1230px; top:560px;}
+    50%  {background:blue; left:1230px; top:0px;}
+    75%  {background:green; left:0px; top:0px;}
+    100% {background:red; left:0px; top:560px;}
+    }
+.style10{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my10;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my10 {
+    0%   {background:red; left:0px; top:0px;}
+    25%  {background:yellow; left:0px; top:560px;}
+    50%  {background:blue; left:1230px; top:560px;}
+    75%  {background:green; left:1230px; top:0px;}
+    100% {background:red; left:0px; top:0px;}
+    }
+.style11{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my11;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my11 {
+    0%   {background:red; left:1230px; top:250px;}
+    25%  {background:yellow; left:0px; top:250px;}
+    50%  {background:blue; left:1230px; top:250px;}
+    75%  {background:green; left:0px; top:250px;}
+    100% {background:red; left:1230px; top:250px;}
+    }
+.style12{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my12;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my12 {
+    0%   {background:red; left:625px; top:0px;}
+    25%  {background:yellow; left:625px; top:560px;}
+    50%  {background:blue; left:625px; top:0px;}
+    75%  {background:green; left:625px; top:560px;}
+    100% {background:red; left:625px; top:0px;}
+    }
+.style13{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my13;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my13 {
+    0%   {background:red; left:625px; top:560px;}
+    25%  {background:yellow; left:625px; top:0px;}
+    50%  {background:blue; left:625px; top:560px;}
+    75%  {background:green; left:625px; top:0px;}
+    100% {background:red; left:625px; top:560px;}
+    }
+.style14{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my14;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my14 {
+    0%   {background:red; left:0px; top:0px;}
+    50%  {background:yellow; left:1230px; top:560px;}
+    100%  {background:blue; left:0px; top:0px;}
+}
+.style15{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my15;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my15 {
+    0%   {background:red; left:1230px; top:0px;}
+    50%  {background:yellow; left:0px; top:560px;}
+    100%  {background:blue; left:1230px; top:0px;}
+}
+.style16{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my16;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my16{
+    0%   {background:red; left:1230px; top:560px;}
+    50%  {background:yellow; left:0px; top:0px;}
+    100%  {background:blue; left:1230px; top:560px;}
+}
+
+.style17{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: my17;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-play-state: running;
+}
+
+@keyframes my17{
+    0%   {background:red; left:0px; top:560px;}
+    50%  {background:yellow; left:1230px; top:0px;}
+    100%  {background:blue; left:0px; top:560px;}
+}
+
+</style>
+</head>
+<body class="style3">
+
+	<div id="layer1" style="position: absolute; width: 100px; height: 100px; z-index: 1;top:14px" class="style1">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/1.jpg" width="100" />
+	</div>
+		<div id="layer2" style="position: absolute; width: 100px; height: 100px; z-index: 2;top:14px" class="style2" left="1050px">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/3.jpg" width="100" />
+	</div>
+	<div id="layer3" style="position: absolute; width: 100px; height: 100px; z-index: 3;top:14px" class="style4">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/5.jpg" width="100" />
+	</div>
+	<div id="layer4" style="position: absolute; width: 100px; height: 100px; z-index: 4;top:14px" class="style5" left="170px">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/6.jpg" width="100" />
+	</div>
+	<div id="layer5" style="position: absolute; width: 100px; height: 100px; z-index: 5;top:14px" class="style6" left="170px">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/7.jpg" width="100" />
+	</div>
+	<div id="layer6" style="position: absolute; width: 100px; height: 100px; z-index: 5;top:14px" class="style7" left="170px">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/8.jpg" width="100" />
+	</div>
+	<div id="layer7" style="position: absolute; width: 100px; height: 100px; z-index: 5;top:14px" class="style8" left="170px">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/9.jpg" width="100" />
+	</div>
+	<div id="layer8" style="position: absolute; width: 100px; height: 100px; z-index: 5;top:14px" class="style9" left="170px">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/10.jpg" width="100" />
+	</div>
+	<div id="layer9" style="position: absolute; width: 100px; height: 100px; z-index: 5;top:14px" class="style10" left="170px">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/11.jpg" width="100" />
+	</div>
+	<div id="layer10" style="position: absolute; width: 100px; height: 100px; z-index: 5;top:14px" class="style11" left="170px">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/12.jpg" width="100" />
+	</div>
+	<div id="layer11" style="position: absolute; width: 100px; height: 100px; z-index: 5;top:14px" class="style12" left="170px">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/13.jpg" width="100" />
+	</div>
+	<div id="layer12" style="position: absolute; width: 100px; height: 100px; z-index: 5;top:14px" class="style13" left="170px">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/14.jpg" width="100" />
+	</div>
+	<div id="layer13" style="position: absolute; width: 100px; height: 100px; z-index: 5;top:14px" class="style14" left="170px">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/15.jpg" width="100" />
+	</div>
+	<div id="layer14" style="position: absolute; width: 100px; height: 100px; z-index: 5;top:14px" class="style15" left="170px">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/16.jpg" width="100" />
+	</div>
+	<div id="layer15" style="position: absolute; width: 100px; height: 100px; z-index: 5;top:14px" class="style16" left="170px">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/17.jpg" width="100" />
+	</div>
+	<div id="layer16" style="position: absolute; width: 100px; height: 100px; z-index: 5;top:14px" class="style17" left="170px">
+		<img alt="" height="100" src="file:///C:/Users/kiran%20cse/Desktop/work/img/18.jpg" width="100" />
+	</div>
+</body>
+	
+</html>
